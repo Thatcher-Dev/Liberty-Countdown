@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liberty Countdown</title>
 
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- PWA -->
     <link rel="manifest" href="manifest.json">
 
+    <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Theme -->
     <meta name="theme-color" content="#b22234">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -26,8 +31,7 @@
         <h1>🇺🇸 Liberty Countdown</h1>
         <h2>Countdown to July 4, 2026</h2>
 
-
-
+        <!-- Toggle -->
         <div class="toggle-container">
             <label class="switch">
                 <input type="checkbox" id="flipToggle" checked>
@@ -35,6 +39,8 @@
             </label>
             <span class="toggle-label">Flip Animation</span>
         </div>
+
+        <!-- Countdown -->
         <div id="countdown-boxes">
             <div class="time-box">
                 <span id="days">0</span>
@@ -53,25 +59,30 @@
                 <label>Seconds</label>
             </div>
         </div>
+
+        <!-- Daily Fact -->
         <div class="fact-box">
             <h2>On This Day in U.S. History</h2>
             <p id="daily-fact">Loading fact...</p>
         </div>
+
+        <!-- Map -->
         <div id="map-section">
             <h3>Explore the United States</h3>
-        
             <div id="us-map"></div>
-        
             <div id="state-info">
                 Click a state to learn something!
             </div>
         </div>
     </div>
 
-<canvas id="fireworks"></canvas>
+    <!-- Fireworks Canvas -->
+    <canvas id="fireworks"></canvas>
 
-<<script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="https://unpkg.com/topojson@3"></script>
-<script src="script.js"></script>
+    <!-- Scripts -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
