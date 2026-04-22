@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 959 593">
+<style>
+.state {
+    fill:#3C3B6E;
+    stroke:#ffffff;
+    stroke-width:1;
+    cursor:pointer;
+}
+.state:hover {
+    fill:#B22234;
+}
+</style>
+
+<!-- California -->
+<path id="california" class="state"
+d="M120,300 L140,280 L160,320 L150,360 L130,350 Z"/>
+
+<!-- Texas -->
+<path id="texas" class="state"
+d="M350,350 L420,330 L450,370 L410,410 L360,390 Z"/>
+
+<!-- Florida -->
+<path id="florida" class="state"
+d="M700,380 L740,370 L760,410 L720,420 Z"/>
+
+<!-- New York -->
+<path id="newyork" class="state"
+d="M780,220 L820,210 L830,240 L790,250 Z"/>
+</svg>
